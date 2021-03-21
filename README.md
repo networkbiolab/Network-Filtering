@@ -61,6 +61,9 @@ REFERENCE NETWORKS:
 - ReferenceNetwork.py 
 create reference gene regulatory networks for D. melanogaster combining TFBS information from the ChIP-Seq available at the ENCODE data repository and Flybase
 
+- bed2gffFlybase.py
+convert the bed files from ENCODE to gff format of FlyBase to be used as input in the generation of the reference networks 
+
 DATA:
 
 - string_interactions.tsv
