@@ -56,9 +56,12 @@ filter correlation nets to keep only correlations above certain thresholds
 - getTFsubnets.pl
 generate nets made of only certain genes
 
+REFERENCE NETWORKS:
 
+- ReferenceNetwork.py 
+create reference gene regulatory networks for D. melanogaster combining TFBS information from the ChIP-Seq available at the ENCODE data repository and Flybase
 
-DATA
+DATA:
 
 - string_interactions.tsv
 STRING reported interactiosn between TFs
@@ -82,3 +85,5 @@ sed -i "s/\"//g" Drosophila_melanogaster_genecount_v1.asci
 sed -i "s/ //g" Drosophila_melanogaster_genecount_v1.asci
 
 first line (empty) deleted with vim
+
+
